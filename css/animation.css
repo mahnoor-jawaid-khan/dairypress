@@ -1,0 +1,26 @@
+/* zooming effect */
+
+@keyframes zoom {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.2);
+
+    }
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 1;
+        filter: brightness(70%);
+    }
+}

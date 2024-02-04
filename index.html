@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en">
+
+<head> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- custome css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive css link -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Animation css link -->
+    <link rel="stylesheet" href="./css/animation.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Owl carousel css link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Owl carousel default css link-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <!-- nav area -->
+        <nav class="nav top-nav">
+            <div style="display: flex;">
+                <a class="nav-link ms-5" href="mailto:info@gmail.com"><i
+                        class="fa fa-envelope-open me-3"></i>info@gmail.com</a>
+                <a class="nav-link ms-5" href="#"><i class="fa fa-phone me-3"></i>+92 315 595426</a>
+            </div>
+            <ul class="nav-social-icons">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-behance-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+
+
+            </ul>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light" style="position: static;">
+            <div class="container-fluid nvus">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><img src="./images/hamburger-icon.png" alt=""></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-2" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-2" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-title">
+                            <a class="nav-link dropdown-toggle  fw-bold mx-2" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdow n" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item dropdown-list fw-bold dropdown-list fw-bold"
+                                        href="#">Teams</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Details</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Gallery</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">FAQ</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Shops</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Product Details</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Login</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Register</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown dropdown-title">
+                            <a class="nav-link dropdown-toggle fw-bold mx-2" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Services</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">Services Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown dropdown-title">
+                            <a class="nav-link dropdown-toggle fw-bold mx-2" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </a>
+                            <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">News</a></li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">News details</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item dropdown-list fw-bold" href="#">more</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-2" href="#">Contact</a>
+                        </li>
+                </div>
+        </nav>
+        <!-- /Nav Area  -->
+        <!-- Header slider -->
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide slider-image position-relative"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="header-img1"></div>
+                    <div class="overflow"></div>
+                    <div class="container">
+                        <div class="carousel-title">
+                            <h5 class="text-uppercase text-light fw-bold fs-4">Get Everytime fresh assest</h5>
+                            <h1 class="text-uppercase text-light fw-bold">DairyPress</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda <br> a
+                                quod tenetur distinctio omnis id, consectetur aliquam nisi </p>
+                            <button class="button1 header-btn1 fw-bold">Our Products</button>
+                            <button class="button2 fw-bold bg-transparent text-light ms-lg-4 mt-3">About us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="header-img2"></div>
+                    <div class="overflow"></div>
+                    <div class="container">
+                        <div class="carousel-title container">
+                            <h5 class="text-uppercase text-light fw-bold fs-4">Get Everytime fresh assest</h5>
+                            <h1 class="text-uppercase text-light fw-bold">DairyPress</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda <br> a
+                                quod
+                                tenetur distinctio omnis id, consectetur aliquam nisi </p>
+                            <button class="button1 header-btn1 fw-bold">Our Products</button>
+                            <button class="button2 fw-bold bg-transparent text-light ms-lg-4 mt-3">About us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="header-img3"></div>
+                    <div class="overflow"></div>
+                    <div class="container">
+                        <div class="carousel-title">
+                            <h5 class="text-uppercase text-light fw-bold fs-4">Get Everytime fresh assest</h5>
+                            <h1 class="text-uppercase text-light fw-bold">DairyPress</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda <br> a
+                                quod
+                                tenetur distinctio omnis id, consectetur aliquam nisi </p>
+                            <button class="button1 header-btn1 fw-bold">Our Products</button>
+                            <button class="button2 fw-bold bg-transparent text-light ms-lg-4 mt-3">About us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Feature section -->
+    <section class="features-section">
+        <div class="container py-5">
+            <div class="about-feature-container">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="feature-items text-center border- my-3">
+                            <div
+                                class="feature-icon d-flex justify-content-center align-items-center rounded-circle  m-auto">
+                                <img src="./images/features-icon-01.png" alt="">
+                            </div>
+                            <div class="item-content mt-4">
+                                <h3 class="fw-bold">Superior Products</h3>
+                                <p class="content-paragraph px-2">A content farm is a company that employs large
+                                    numbers.</p>
+                                <p class="read-more text-dark fw-bold">READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="feature-items text-center border-  my-3">
+                            <div
+                                class="feature-icon d-flex justify-content-center align-items-center  rounded-circle  m-auto">
+                                <img src="./images/features-icon-02.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="item-content mt-4">
+                                <h3 class="fw-bold">Fully Pure & Fresh</h3>
+                                <p class="content-paragraph px-2">A content farm is a company that employs large
+                                    numbers.</p>
+                                <p class="read-more text-dark fw-bold">READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="feature-items text-center my-3">
+                            <div
+                                class="feature-icon d-flex justify-content-center align-items-center  rounded-circle m-auto">
+                                <img src="./images/features-icon-03.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="item-content mt-4">
+                                <h3 class="fw-bold">Best Quality providers</h3>
+                                <p class="content-paragraph px-2">A content farm is a company that employs large
+                                    numbers.</p>
+                                <p class="read-more text-dark fw-bold">READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- /Feature section -->
+    <!-- About section -->
+    <section class="about-section position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-lg-5 ">
+                    <div class="about-images  ">
+                        <div class="img-1">
+                            <img src="./images/about-img-1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="img-2 mb-5">
+                            <img src="./images/about-img-2.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="shaped-div">
+                            <img src="./images/about-cow.png" alt="" class="cow-logo img-fluid">
+                            <img src="./images/about-dashed.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="about-content ms-lg-5">
+                        <h5 class="fw-bold mt--lg-5">About us</h5>
+                        <h1 class="fw-bold">Know about our farm & history</h1>
+                        <p class="mt-3">
+                            We have been working in this industry for more than 30 years with trust and honesty. All
+                            hands
+                            must be on deck if we are to achieve our goal of improving global nutrition.
+                        </p>
+                        <h4 class="mt-lg-4 fw-bold">Our Mission</h4>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="list mt-lg-5">
+                                    <ul>
+                                        <li>
+                                            <span><i class="fa fa-check pe-2"></i> High-quality work</span>
+
+                                        </li>
+                                        <li>
+                                            <span><i class="fa fa-check pe-2"></i>Straightforward pricing
+                                            </span>
+
+                                        </li>
+                                        <li>
+                                            <span><i class="fa fa-check pe-2"></i> Rapid response times</span>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 col-sm-12 text-center d-flex justify-content-center align-items-center">
+                                <div class="counter">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <h3 id="counter">80</h3>
+                                        <span>+</span>
+                                    </div>
+                                    <p class="fw-bold">YEARS EXPERIENCE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                <button class="contact-button mb-5 mt-5 text-uppercase fw-bold bg-transparent">Get in
+                                    touch</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- /About section -->
+    <!-- Product section  -->
+    <section class="product-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 mb-sm-5">
+                    <div class="product d-flex">
+                        <img src="./images/product-icon-01.png" alt="" class="m-3">
+                        <h1 class="text-light text-uppercase ms-lg-4 ms-2 py-4 fw-bold">We sale best agriculture
+                            products</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="product">
+                        <div class="product d-flex">
+                            <img src="./images/product-icon-02.png" alt="" class="m-3">
+                            <h1 class="text-light text-uppercase ms-lg-4 ms-2 py-4 fw-bold">WORLDWIDE BEST FRESH MILk
+                                DELIVERY</h1>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /product section -->
+    <!-- services section -->
+    <section class="services position-relative">
+        <div class="cow-image">
+            <img src="./images/cow.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="fw-bold">Services</h4>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h1 class="fs-1 fw-bold">WHAT WE PROVIDE</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services-content text-center position-relative">
+                        <div class="services-image  mt-5">
+                            <img src="./images/service-01.png" alt="" class="img-fluid">
+                            <span
+                                class="number fw-bold  d-flex justify-content-center align-items-center rounded-circle">01</span>
+                        </div>
+                        <h3 class="fw-bold mt-3 fs-4">FRESH MILK</h3>
+                        <p class="p-3 ">A content farm is a company that employs large numbers.</p>
+                        <h6 class="fw-bold">READ MORE</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services-content text-center position-relative">
+                        <div class="services-image mt-5">
+                            <img src="./images/service-04.png" alt="" class="img-fluid">
+                            <span
+                                class="number fw-bold d-flex justify-content-center align-items-center rounded-circle">02</span>
+                        </div>
+                        <h3 class="fw-bold mt-3 fs-4">FRESH MILK</h3>
+                        <p class="p-3 ">A content farm is a company that employs large numbers.</p>
+                        <h6 class="fw-bold">READ MORE</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 ">
+                    <div class="services-content text-center position-relative ">
+                        <div class="services-image  mt-5">
+                            <img src="./images/service-03.png" alt="" class="img-fluid">
+                            <span
+                                class="number fw-bold  d-flex justify-content-center align-items-center rounded-circle">03</span>
+                        </div>
+                        <h3 class="fw-bold mt-3 fs-4">FRESH MILK</h3>
+                        <p class="p-3">A content farm is a company that employs large numbers.</p>
+                        <h6 class="fw-bold">READ MORE</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services-content text-center position-relative">
+                        <div class="services-image mt-5">
+                            <img src="./images/service-04.png" alt="" class="img-fluid">
+                            <span
+                                class="number fw-bold  d-flex justify-content-center align-items-center rounded-circle">04</span>
+                        </div>
+                        <h3 class="fw-bold mt-3 fs-4">FRESH MILK</h3>
+                        <p class="p-3 ">A content farm is a company that employs large numbers.</p>
+                        <h6 class="fw-bold">READ MORE</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-lg-5 farm-growth">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-5 mx-auto">
+                    <div class="farm-growth-content text-center">
+                        <img src="./images/farmer.png" alt="" class="img-fluid">
+                        <h2 class="m-3 text-uppercase fw-bold">We are caring about our farm growth</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                    <div class="growth-para-div mt-5  ms-4 text-center">
+                        <p class="growth-paragraph">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Voluptates voluptatem, voluptate ab
+                            dicta dolore quisquam maxime
+                        </p>
+
+                    </div>
+                    <div class="quote-btn text-center">
+                        <button class="growth-button mt-lg-5 bg-transparent"> GET A QUOTE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / services section -->
+    <!-- Gallery SLider -->
+    <section id="bg">
+        <div class="gallery-bg">
+            <img src="./images/gallery-bg.png" alt="" class="img-fluid">
+        </div>
+
+        <div class="container gallery-container">
+            <div class="row">
+                <div class="col-lg-12" style="z-index: 9;">
+                    <div class="mt-5 farm-heading mx-5">
+                        <h6>Farm Overview</h6>
+                        <h1>Farm Gallery</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container swiper-slider-container">
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/gallery-01.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/gallery-02.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/gallery-03.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/gallery-04.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/gallery-01.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/gallery-02.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/gallery-03.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/gallery-04.jpg" alt="" class="img-fluid">
+                            <div class="card-content">
+                                <h3>Farm House Look</h3>
+                                <p>A content farm is a company that employees large num</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination mt-5"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container video-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="video-wrapper text-center">
+                        <a href="#">
+                            <div class="videoButton mx-5">
+                                <i class="fa fa-play "></i>
+                            </div>
+                        </a>
+                        <div class="video-text mt-5">
+                            <h5>Intro Video</h5>
+                            <h1>READY TO EXPERIENCE & <br>
+                                WORK DIFFERENCE</h1>
+                        </div>
+                        <div class="buttons mb-5 mt-5">
+                            <button class="button1 mx-3 fw-bold"> Make Appointment</button>
+                            <button class="button2 fw-bold"> Get a Quote</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Slider -->
+    <!-- Brand section-->
+    <section class="brand mt-lg-5 mb-3">
+        <div class="container brand-container text-center mt-lg-5 ">
+            <div class="owl-carousel owl-theme mb-5 mt-5">
+                <div class="item"><img src="./images/brand-1.png" alt=""></div>
+                <div class="item"><img src="./images/brand-2.png" alt=""></div>
+                <div class="item"><img src="./images/brand-3.png" alt=""></div>
+                <div class="item"><img src="./images/brand-1.png" alt=""></div>
+                <div class="item"><img src="./images/brand-2.png" alt=""></div>
+                <div class="item"><img src="./images/brand-3.png" alt=""></div>
+                <div class="item"><img src="./images/brand-1.png" alt=""></div>
+                <div class="item"><img src="./images/brand-2.png" alt=""></div>
+                <div class="item"><img src="./images/brand-3.png" alt=""></div>
+                <div class="item"><img src="./images/brand-1.png" alt=""></div>
+                <div class="item"><img src="./images/brand-2.png" alt=""></div>
+                <div class="item"><img src="./images/brand-3.png" alt=""></div>
+            </div>  
+        </div>
+
+    </section>
+
+    <!-- /Brand section -->
+    <!-- contact section -->
+    <section class="contact-section mb-5">
+        <div class="cheese-div">
+            <img src="/images/shap-01.png" alt="">
+        </div>
+        <div class="container mb-5 ">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="contact-content">
+                        <h5 class="mt-5 text-capitalize fw-bold">custome request</h5>
+                        <h1 class="text-uppercase fw-bold">Book an Appointment </h1>
+                        <div class="contact-form mt-5">
+                            <form action="#">
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="" class="fw-bold  mb-3">FULL NAME</label> <br>
+                                        <div class="input-div d-flex">
+                                            <i class="fa fa-user fs-5"></i>
+                                            <input type="text" placeholder="M. Ali Khan">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="" class="fw-bold  mb-3">EMAIL ADDRESS</label> <br>
+                                        <div class="input-div d-flex">
+                                            <i class="fa fa-envelope-open fs-5"></i>
+                                            <input type="email" placeholder="info@gmail.com">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="" class="fw-bold  mb-3">PHONE NUMBER</label> <br>
+                                        <div class="input-div d-flex">
+                                            <i class="fa fa-phone fs-5"></i>
+                                            <input type="tel" placeholder="+92 317 59751656">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="" class="fw-bold mb-3">DATE & TIME</label> <br>
+                                        <div class="input-div d-flex">
+                                            <i class="fa fa-calendar-days fs-5"></i>
+                                            <input type="date" placeholder="mm/dd/yyyy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="contact-form-button mt-4 fw-bold mb-lg-5">Get Appointment</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-5" style="z-index: 2;">
+                    <div class="contact-us p-lg-5 p-2 mt-5 ms-lg-5 mb-5">
+                        <div class="contact-details ">
+                            <div class="contact-icon mx-auto">
+                                <img src="./images/phone-icon.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="contact-num ms-2 mt-3 text-center">
+                                <h5 class="text-capitalize fw-bold"> or call us now</h5>
+                                <h2 class="fw-bold">00 221 232 000</h2>
+
+                            </div>
+
+
+                        </div>
+                        <div class="contact-content-details mt-4">
+                            <p>
+                                Give us a call to ask for online advice or book a physical schedule at dairypress soon.
+                            </p>
+                            <div class="location d-flex">
+                                <i class="fa fa-location-dot"></i>
+                                <h6 class="fw-bold ms-4 mt-2 text-uppercase my-3  ">View On Google Map</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/contact Section -->
+
+
+    <!-- news section -->
+    <section class="news-section  mt-5">
+        <div class="container">
+            <div class="news-title text-center mt-5">
+                <h5 class="fw-bold">News Feed</h5>
+                <h1 class="fw-bold">FARM BLOGS & INSIGHTS</h1>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="news-card">
+                            <div class="news-image">
+                                <img src="./images/news-01.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="news-card-content">
+                                <div class="news-icon d-flex">
+                                    <i class="fa fa-calendar-days"></i>
+                                    <p class="ms-1 text-dark ms-lg-3 ms-sm-1"> May 20,2024</p>
+                                    <i class="fa fa-user ms-5"></i>
+                                    <p class="ms-1 text-dark ms-lg-3 ms-sm-2">Mr. Khan</p>
+                                </div>
+                                <h6 class="text-uppercase text-start fw-bold text-dark">used to influence costumers
+                                    behavior, but also
+                                    used</h6>
+                                <p class="fw-bold text-dark text-start mt-4 ">READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="news-card">
+                            <div class="news-image">
+                                <img src="./images/news-01.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="news-card-content mt-lg-4">
+                                <div class="news-icon d-flex">
+                                    <i class="fa fa-calendar-days"></i>
+                                    <p class="ms-1 text-dark ms-lg-3 ms-sm-1"> May 20,2024</p>
+                                    <i class="fa fa-user ms-5"></i>
+                                    <p class="ms-1 text-dark ms-lg-3 ms-sm-2">Mr. Khan</p>
+                                </div>
+                                <h6 class="text-uppercase text-start fw-bold text-dark">used to influence costumers
+                                    behavior, but also
+                                    used</h6>
+                                <p class="fw-bold text-dark text-start mt-4 ">READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="right-news-content p-lg-4 py-4">
+                            <div class="news-icon d-flex">
+                                <i class="fa fa-calendar-days"></i>
+                                <p class="ms-1 text-dark ms-3"> May 20,2024</p>
+                                <i class="fa fa-user ms-5"></i>
+                                <p class="ms-1 text-dark ms-3">Mr. Khan</p>
+                            </div>
+                            <h6 class="text-uppercase text-start ">used to influence costumers behavior, but also used
+                            </h6>
+                        </div>
+                        <div class="right-news-content p-lg-4 py-4">
+                            <div class="news-icon d-flex">
+                                <i class="fa fa-calendar-days"></i>
+                                <p class="ms-1 text-dark ms-3"> May 20,2024</p>
+                                <i class="fa fa-user ms-5"></i>
+                                <p class="ms-1 text-dark ms-3">Mr. Khan</p>
+                            </div>
+                            <h6 class="text-uppercase text-start">used to influence costumers behavior, but also used
+                            </h6>
+                        </div>
+                        <div class="right-news-content p-lg-4 py-4">
+                            <div class="news-icon d-flex">
+                                <i class="fa fa-calendar-days"></i>
+                                <p class="ms-1 text-dark ms-3"> May 20,2024</p>
+                                <i class="fa fa-user ms-5"></i>
+                                <p class="ms-1 text-dark ms-3">Mr. Khan</p>
+                            </div>
+                            <h6 class="text-uppercase text-start">used to influence costumers behavior, but also used
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /news section -->
+
+    <!-- Footer Section -->
+    <footer class="footer mt-5">
+        <div class="footer-bg-image">
+            <img src="./images/footer-bg.png" alt="" class="img-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="copyright">
+                            <p class="fw-bold text-uppercase">copyright designed by @mahnoorKhan-2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-container position-relative">
+            <div class="row" style="padding: 50px 0;">
+                <div class="col-lg-3 col-md-6 col-sm-1 mt-lg-5 mt-3">
+                    <div class="about-us">
+                        <h4 class="fw-bold mb-4">ABOUT US</h4>
+                        <p>A farm is a plot of land that is used to grow crops and raise livestock, as in our farm, we
+                            raise sheep and sell their wool. The word farm is also used as a verb to mean to work land.
+                        </p>
+                        <div class="social-icons mt-5">
+                            <a href=""><i class="fa-brands fa-facebook  mx-1"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter mx-1"></i></a>
+                            <a href=""><i class="fa-brands fa-behance-square mx-1"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-5 mt-3">
+                    <div class="footer-services mx-lg-3">
+                        <h4 class="text-uppercase fw-bold">services</h4>
+                        <ul class="py-3 px-1 text-light text-capitalize">
+                            <li class=""> <a href="#" class="text-decoration-none text-light"> agriculture Food</a></li>
+                            <li> <a href="#" class="text-decoration-none text-light">oraganic vegetables </a></li>
+                            <li> <a href="#" class="text-decoration-none text-light">pond & sea fish </a></li>
+                            <li> <a href="#" class="text-decoration-none text-light">cow milk and meat </a></li>
+                            <li> <a href="#" class="text-decoration-none text-light">Accessories </a></li>
+                            <li> <a href="#" class="text-decoration-none text-light">oraganic food</a></li>
+                            <li> <a href="#" class="text-decoration-none text-light">eggs and meat </a></li>
+                            <li> <a href="#" class="text-decoration-none text-light">natural wheat </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-5 mt-3">
+                    <div class="business-hours">
+                        <h4 class="fw-bold text-uppercase">Business Hours</h4>
+                        <p class="days mt-4 mb-1">Mon-Fri</p>
+                        <p class="timing fw-bold">10:00 am to 6:00 pm</p>
+                        <p class="days mt-4 mb-1">Saturday (1st & 4th) </p>
+                        <p class="timing fw-bold">08:00 am to 4:00 pm</p>
+
+                        <div class="emergency-contact d-flex mt-1 p-2">
+                            <img src="./images/footer-text-icon.png" alt="" class="py-4 img-fluid">
+                            <div class="emergency-content px-3 mt-2 text">
+                                <p class="mt-1">Emergency Services</p>
+                                <p class="fw-bold"> <a href="tel:00 92 5946 5132"
+                                        class="text-decoration-none text-light">00 92 5946 5132</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-5 mt-3">
+                    <div class="subscribe-us">
+                        <h4 class="fw-bold text-uppercase">Subscribe us</h4>
+                        <p class="mt-4">Subscribe us & recive our office & update in your inbox directly </p>
+                        <div class="subscribe-us-input">
+                            <i class="fa fa-envelope-open ps-2"></i>
+                            <input type="email" placeholder="user@gmail.com" class="p-3">
+                        </div>
+                        <button class="sub-btn mt-4 fw-bold mb-5">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer section -->
+    <!-- my own JS file -->
+
+    <script src="./js/app.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- owl carousel jquery file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl carousel js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        // Initialize swipper 
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

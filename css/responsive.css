@@ -1,0 +1,116 @@
+@media screen and (max-width: 999px) {
+    .navbar{
+        padding: 0 !important;
+        
+    }
+    .nvus{
+        padding-right: 0 !important;
+    }
+    .navbar-brand img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+        height: 68px;
+      }
+    .navbar-toggler{
+        float: right;
+    }
+    .carousel-title h5{
+        font-size: 15px !important;
+    }
+    .carousel-title h1{
+        font-size: 45px;
+    }
+    .carousel-title p{
+        font-size: 14px;
+    }   
+    .carousel-title .header-btn{
+        width:100% !important;
+        }
+    
+    .border- {
+        border-right: 0;
+        border-bottom: 1px solid #edecec;
+    }
+    .farm-heading h6 {
+        font-size: 1.2rem;
+    }
+
+    .farm-heading h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .services span{
+        left: 0 !important;
+    }
+
+    .video-container {
+        margin-top: 10rem !important;
+    }
+
+    .video-wrapper .video-text h1 {
+        color: #000;
+        font-size: 1.2rem !important;
+    }
+
+    .video-wrapper .buttons button {
+        margin-bottom: 15px;
+    }
+
+    .about-images .img-2 {
+        position: relative;
+        left: 0;
+        margin-top: 20px !important;
+    }
+
+    .about-content h1 {
+        font-size: 30px !important;
+    }
+    
+    .shaped-div, .cow-image,.footer-bg-image img , .top-nav, .cart-icon, .hamburger-icon, .cheese-div{
+        display: none !important;
+    }
+
+    .product {
+        margin-bottom: 20px;
+    }
+    .item img{
+        height: 150px;
+    }
+    .farm-growth-content h2 {
+        font-size: 20px;
+    }
+
+    .footer {
+        height: auto;
+    }
+    
+    .copyright {
+
+        position: relative;
+        left: 0;
+        font-size: 14px;
+        letter-spacing: -1px;
+        border-top: 1px solid #5c5959;
+        padding: 10px !important;
+    }
+    .copyright p{
+        font-size: 12px;
+      }
+}
+@media screen and (max-width: 480px) {
+
+    .farm-growth-content,
+    .growth-para-div {
+        width: 280px !important;
+    }
+
+    .contact-details {
+        display: block !important;
+    }
+
+    .news-title h1 {
+        font-size: 35px;
+    }
+}
